@@ -15,7 +15,7 @@ jobs:
       options: -v /__w/as101-4-workshop/as101-4-workshop:/target
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-    step:
+    steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Scan using hawkeye
